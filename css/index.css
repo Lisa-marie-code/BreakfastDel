@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width:900px) {
+    header{
+       padding-bottom: 2rem;
+    }
+    p{
+        font-size:6vw ; 
+        /* margin-top: 2rem; */
+    }
+}
+
+
+header{
+    background-color:#c43d25;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+#logo{
+width: 5%;
+border-radius: 50%;
+position: relative;
+margin-left: 10%;
+}
+
+p{
+    font-size:3vw ; 
+    color: #fff;
+}
+
+.nav{
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+.nav a {
+    float: left;
+    color: coral;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.nav :active{
+    background-color: #FFE5B4;
+    color: #fff;
+}
+.food{
+width: 60%;
+height: 50vh;
+margin: auto;
+padding-top: 50px;
+margin-top: 1%;
+background-color:rgb(177, 173, 173);
+
+}
+#allinputs, #my_list{
+    width: 50%;
+}
+.mainform{
+    padding: 10px;
+    margin: auto;
+}
+button{
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: #dd662e; 
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.delete{
+    margin-left: 1rem;
+}
+
+
+
+.wrap {
+    display: grid;
+    grid-template-columns: 20% 15% 20% 20% 25%;
+    position: absolute;
+    margin-left:5%;
+    margin-right: 5%;
+}
+.wrap div{
+    padding: 2rem;
+}
+.footer{
+    margin-top:20%;
+    height:30vh ;
+    background-color: #dd662e;
+    
+}
+div p{
+    color: white;
+    font-size: 14px;
+}
+.keep > p{
+    margin-left: 40%;
+}
+.foot{
+    height:10vh;
+    border-top: 1px solid rgb(151, 148, 148);
+    background-color: #000;
+}
+.footimg{
+    width: 20%;
+}
+#ftext{
+display: inline;
+}
+.foot > p{
+    text-align: center;
+    padding-top: 2%;
+}
+/* .icons {
+    margin-left:40% ;
+    color: #EB0065;
+} */
+#fbook{
+    border:1px solid white;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+#insta{
+    border:1px solid white;
+    padding: 1rem;
+    border-radius: 80%;
+}
+.foodbox{
+    height:80vh;
+    background-color: rgb(241, 148, 111);
+}
