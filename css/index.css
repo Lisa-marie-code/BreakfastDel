@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width:900px) {
     header{
@@ -9,13 +9,11 @@
     }
     p{
         font-size:6vw ; 
-        /* margin-top: 2rem; */
     }
 }
 
-
 header{
-    background-color:#c43d25;
+    background-color:#f77b1b;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -35,13 +33,13 @@ p{
 }
 
 .nav{
-    background-color: #333;
+    background-color: #cb9859;
     overflow: hidden;
     width: 100%;
 }
 .nav a {
-    float: left;
-    color: coral;
+    float:right;
+    color:#fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,7 +59,7 @@ height: 50vh;
 margin: auto;
 padding-top: 50px;
 margin-top: 1%;
-background-color:rgb(177, 173, 173);
+background-color:#e5e9e6;
 
 }
 #allinputs, #my_list{
@@ -74,18 +72,11 @@ background-color:rgb(177, 173, 173);
 button{
     border-radius: 5px;
     padding: 5px 5px;
-    background-color: #dd662e; 
+    background-color: #cb9859; 
     border: none;
     color: white;
     text-align: center;
-    display: inline-block;
 }
-
-.delete{
-    margin-left: 1rem;
-}
-
-
 
 .wrap {
     display: grid;
@@ -98,10 +89,8 @@ button{
     padding: 2rem;
 }
 .footer{
-    margin-top:20%;
     height:30vh ;
-    background-color: #dd662e;
-    
+    background-color:#f77b1b;
 }
 div p{
     color: white;
@@ -111,7 +100,7 @@ div p{
     margin-left: 40%;
 }
 .foot{
-    height:10vh;
+    height: 20vh;
     border-top: 1px solid rgb(151, 148, 148);
     background-color: #000;
 }
@@ -121,26 +110,70 @@ div p{
 #ftext{
 display: inline;
 }
+
 .foot > p{
     text-align: center;
     padding-top: 2%;
 }
-/* .icons {
-    margin-left:40% ;
-    color: #EB0065;
-} */
-#fbook{
-    border:1px solid white;
-    padding: 1rem;
+
+#font{
+    border:1px solid rgb(0, 0, 0);
+    padding: .5rem;
+    margin:0 0 5% 20%;
     border-radius: 100%;
 }
-
-#insta{
-    border:1px solid white;
-    padding: 1rem;
-    border-radius: 80%;
-}
 .foodbox{
-    height:80vh;
-    background-color: rgb(241, 148, 111);
+    background-color:#e5e9e6;
+    padding: 30px 0px;
+}
+.foodbox h1{
+    font-weight:900;
+    font-size:34px;
+    padding-bottom: 5px ;
+}
+.title{
+    text-align: center;
+    padding: 25px 0px;
+}
+.title p{
+    font-size: 18px;
+}
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.card{
+  margin: 20px 10px;   
+}
+
+
+/* *****2nd page*** */
+.menu{
+width: 50%;
+height: 30vh;
+padding-top: 50px;
+margin-top: 2%;
+background-color: #ce825f;
+margin-left: 10%;
+margin-bottom:20% ;
+}
+.menuform{
+padding: 30px;
+}
+#name {
+width: 60%;
+}
+.selectedFood{
+width: 20%;
+height: 30vh;
+float: right;
+margin-top: 2%;
+background-color: #FFE5B4;
+}
+
+.selectedFood img{ 
+    width:30% ;
+    border-radius:5% ;
+}
+.Cancel-Order{
+    margin-left:5% ;
 }

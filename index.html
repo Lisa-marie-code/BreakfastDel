@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MARIE'S BREAKFAST</title>
-  <link rel="stylesheet" href="css\index.css" />
-  <link rel="stylesheet" href="css\font-awesome.min.css">
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
@@ -48,8 +48,8 @@
 
           <label for="NEW ITEM">MEAL:</label>
           <br>
-          <input type="text" id="my_list">
-          <button class="submit">Submit</button>
+          <input type="text" id="my_list" placeholder="Specify your meal..">
+          <button class="submit">Place Order</button>
           <!-- <button class="submit" onclick="addItem()" >Submit</button> -->
         </form>
       </div>
@@ -61,37 +61,42 @@
       <ul id="item">
       </ul>
     </div>
+
     <!-- start of packages -->
     <div class="foodbox">
       <div class="container" >
+        <div class="title">
+          <h1>The Royal's Offer</h1>
+          <p>Breakfast & More</p>
+        </div>
         <div class="row">
-          <div class="col-md-4 ">
-            <div class="card" style="width: 18rem;">
+          <div class="col-md-4  ">
+            <div class="card text-center" >
               <img src="images\MBD.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Kingly-Queenly Pack</h5>
-                <p class="card-text">Ready to Eat.</p>
-                <a href="#" class="btn btn-primary">Order Here</a>
+                <p class="card-text" style="color: #000;" >Ready to Eat.</p>
+                <a href="menu.html" class="btn btn-outline-warning">Order Here</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 ">
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center">
               <img src="images\MBD.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Kingly-Queenly Pack</h5>
-                <p class="card-text">Ready to Eat.</p>
-                <a href="#" class="btn btn-primary">Order Here</a>
+                <p class="card-text" style="color: #000;">Ready to Eat.</p>
+                <a href="menu.html" class="btn btn-outline-warning">Order Here</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+          <div class="col-md-4 ">
+            <div class="card text-center">
               <img src="images\MBD.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Kingly-Queenly Pack</h5>
-                <p class="card-text">Ready to Eat.</p>
-                <a href="#" class="btn btn-primary">Order Here</a>
+                <p class="card-text" style="color: #000;">Ready to Eat.</p>
+                <a href="menu.html" class="btn btn-outline-warning">Order Here</a>
               </div>
             </div>
           </div>
@@ -105,9 +110,9 @@
     <!-- start of footer  -->
     <div class="footer">
       <div class="wrap">
-        <div class="cov">
+        <div class="footlogo">
           <img src="images\IMG_20210322_180958_432.jpg" class="footimg" alt="">
-          <p id="ftext">COVID-19</p>
+          <p id="ftext">BREAKIE</p>
           <p> MariesBreakfast is a top breakfast delivery service built to cope with employees.</p>
         </div>
         <div class="links">
@@ -115,7 +120,6 @@
             <a href="#" style="color: #EB0366;"> Click Here?</a> <br>
             About Us <br>
             Delivery Options<br>
-            Shop<br>
           </p>
         </div>
         <div class="TC">
@@ -134,13 +138,12 @@
         <div class="keep">
           <p> KEEP IN TOUCH</p>
           <div class="icons">
-            <i class="fa fa-facebook fa-2x" id="fbook"></i>
-            <i class="fa fa-instagram fa-2x" id="insta"></i>
+            <i class="fa fa-facebook fa-2x" id="font"></i>
+            <i class="fa fa-instagram fa-2x" id="font"></i>
           </div>
         </div>
       </div>
     </div>
-
     <div class="foot">
       <p>&copyMARIESBREAKFAST<br>
         ALL RIGHT RESERVED.</p>
@@ -158,3 +161,15 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+ 
